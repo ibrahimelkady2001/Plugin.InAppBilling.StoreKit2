@@ -30,3 +30,13 @@ var purchase = await billing.PurchaseAsync(product.ProductId, ItemType.InAppPurc
 ## Credits
 
 All credit to **James Montemagno** for the original cross-platform in-app billing plugin. This fork simply adds StoreKit2 support for Apple platforms.
+
+---
+
+<p align="center">
+  <a href="https://paypal.me/ibrahimelkady1">
+    <img src="https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png" alt="Donate with PayPal" height="48">
+  </a>
+  <br>
+  <sub>If this project helped you, consider supporting my work ❤️</sub>
+</p>
