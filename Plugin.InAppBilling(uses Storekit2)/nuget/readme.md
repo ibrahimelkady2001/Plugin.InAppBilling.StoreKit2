@@ -1,0 +1,1 @@
+# AppMare Plugin.InAppBilling

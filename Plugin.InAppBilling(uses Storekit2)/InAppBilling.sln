@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32104.313
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3236B15E-C644-4FAA-8568-55E39CCE6D2F}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\README.md = ..\README.md
+		..\nuget\readme.txt = ..\nuget\readme.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugin.InAppBilling", "Plugin.InAppBilling\Plugin.InAppBilling.csproj", "{C570E25E-259F-4D4C-88F0-B2982815192D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{6A41C44D-4B82-4039-B2AC-07D668168569}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\Architecture.md = ..\docs\Architecture.md
+		..\docs\CheckAndRestorePurchases.md = ..\docs\CheckAndRestorePurchases.md
+		..\docs\GetProductDetails.md = ..\docs\GetProductDetails.md
+		..\docs\GettingStarted.md = ..\docs\GettingStarted.md
+		..\docs\HandlingExceptions.md = ..\docs\HandlingExceptions.md
+		..\docs\PurchaseConsumable.md = ..\docs\PurchaseConsumable.md
+		..\docs\PurchaseNonConsumable.md = ..\docs\PurchaseNonConsumable.md
+		..\docs\PurchaseSubscription.md = ..\docs\PurchaseSubscription.md
+		..\docs\README.md = ..\docs\README.md
+		..\docs\SecuringPurchases.md = ..\docs\SecuringPurchases.md
+		..\docs\TestingAndTroubleshooting.md = ..\docs\TestingAndTroubleshooting.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5124C265-C6EF-4415-9497-0EF227E43095}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C570E25E-259F-4D4C-88F0-B2982815192D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C570E25E-259F-4D4C-88F0-B2982815192D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C570E25E-259F-4D4C-88F0-B2982815192D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C570E25E-259F-4D4C-88F0-B2982815192D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42D18242-8BA9-4238-9D59-10850E1C2C24}
+	EndGlobalSection
+EndGlobal

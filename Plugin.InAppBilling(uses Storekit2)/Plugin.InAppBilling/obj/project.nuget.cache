@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "CvNXquu6NM8=",
+  "success": true,
+  "projectFilePath": "/Users/ibrahimelkady/Downloads/AppMare_Maui-1/AppMare Projects/AppMareMaui/Plugin.InAppBilling(uses Storekit2)/Plugin.InAppBilling/Plugin.InAppBilling.csproj",
+  "expectedPackageFiles": [
+    "/Users/ibrahimelkady/.nuget/packages/microsoft.build.tasks.git/8.0.0/microsoft.build.tasks.git.8.0.0.nupkg.sha512",
+    "/Users/ibrahimelkady/.nuget/packages/microsoft.net.illink.tasks/10.0.6/microsoft.net.illink.tasks.10.0.6.nupkg.sha512",
+    "/Users/ibrahimelkady/.nuget/packages/microsoft.sourcelink.common/8.0.0/microsoft.sourcelink.common.8.0.0.nupkg.sha512",
+    "/Users/ibrahimelkady/.nuget/packages/microsoft.sourcelink.github/8.0.0/microsoft.sourcelink.github.8.0.0.nupkg.sha512",
+    "/Users/ibrahimelkady/.nuget/packages/microsoft.ios.ref.net10.0_26.0/26.0.11017/microsoft.ios.ref.net10.0_26.0.26.0.11017.nupkg.sha512",
+    "/Users/ibrahimelkady/.nuget/packages/microsoft.maccatalyst.ref.net10.0_26.0/26.0.11017/microsoft.maccatalyst.ref.net10.0_26.0.26.0.11017.nupkg.sha512"
+  ],
+  "logs": []
+}

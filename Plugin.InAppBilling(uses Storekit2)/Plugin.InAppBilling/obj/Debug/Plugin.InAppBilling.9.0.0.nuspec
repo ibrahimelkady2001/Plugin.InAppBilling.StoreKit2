@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Plugin.InAppBilling</id>
+    <version>9.0.0</version>
+    <title>In-App Billing Plugin for .NET MAUI and Windows</title>
+    <authors>James Montemagno</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>icon.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/jamesmontemagno/InAppBillingPlugin</projectUrl>
+    <description>.NET MAUI and Windows Plugin to In-App Billing. Get item information, purchase items, and restore purchases with a cross-platform API.
+      Read the full documenation on the projects page.</description>
+    <releaseNotes>See: https://github.com/jamesmontemagno/InAppBillingPlugin</releaseNotes>
+    <copyright>Copyright 2024</copyright>
+    <tags>.net maui, macos, windows, xamarin, xamarin.forms, android, ios, uwp, windows phone, In-App Billing, purchases, plugin</tags>
+    <repository type="git" url="https://github.com/jamesmontemagno/InAppBillingPlugin" />
+    <dependencies>
+      <group targetFramework="net10.0-ios26.0">
+        <dependency id="StoreKit2" version="1.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net10.0-maccatalyst26.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/ibrahimelkady/Downloads/InAppBillingPlugin-master-4/src/Plugin.InAppBilling/bin/Debug/net10.0-ios/Plugin.InAppBilling.dll" target="lib/net10.0-ios26.0/Plugin.InAppBilling.dll" />
+    <file src="/Users/ibrahimelkady/Downloads/InAppBillingPlugin-master-4/src/Plugin.InAppBilling/bin/Debug/net10.0-maccatalyst/Plugin.InAppBilling.dll" target="lib/net10.0-maccatalyst26.0/Plugin.InAppBilling.dll" />
+    <file src="/Users/ibrahimelkady/Downloads/InAppBillingPlugin-master-4/nuget/readme.txt" target="readme.txt" />
+    <file src="/Users/ibrahimelkady/Downloads/InAppBillingPlugin-master-4/art/icon.png" target="icon.png" />
+    <file src="/Users/ibrahimelkady/Downloads/InAppBillingPlugin-master-4/README.md" target="/README.md" />
+  </files>
+</package>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:iap="clr-namespace:Plugin.InAppBilling;assembly=Plugin.InAppBilling"
+             x:Class="InAppBillingTests.MainPage">
+
+    <VerticalStackLayout>
+		<Button Text="Buy Consumable" x:Name="ButtonConsumable" Clicked="ButtonConsumable_Clicked"/>
+		<Button Text="Buy Non-Consumable" x:Name="ButtonNonConsumable" Clicked="ButtonNonConsumable_Clicked"/>
+		<Button Text="Buy Sub" x:Name="ButtonSub" Clicked="ButtonSub_Clicked"/>
+        <Button Text="Buy Renewing Sub" x:Name="ButtonRenewingSub" Clicked="ButtonRenewingSub_Clicked"/>
+        <Button Text="Get Subscrition Purchases" x:Name="ButtonRestore" Clicked="ButtonRestore_Clicked"/>
+        <Button Text="Get Product Info" x:Name="ButtonProductInfo" Clicked="ButtonProductInfo_Clicked"/>
+        <ListView ItemsSource="{Binding Items}">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="iap:InAppBillingProduct">
+                    <TextCell Text="{Binding ProductId}"
+                              Detail="{Binding Name}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>
