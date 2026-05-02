@@ -29,7 +29,8 @@ var purchase = await billing.PurchaseAsync(product.ProductId, ItemType.InAppPurc
 
 ## Credits
 
-All credit to **James Montemagno** for the original cross-platform in-app billing plugin. This fork simply adds StoreKit2 support for Apple platforms.
+- **James Montemagno** — original cross-platform InAppBilling plugin
+- **Yuting Li / Shanghai Jiuqianji Technology Co., Ltd.** — MAUI.StoreKit2 binding library for iOS StoreKit2
 
 ---
 
